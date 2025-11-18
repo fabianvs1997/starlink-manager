@@ -1,148 +1,161 @@
-package com.starlink.service;
+package com.starlink.controller;
 
+import com.starlink.dto.ApiResponse;
 import com.starlink.dto.EquipoDTO;
-import com.starlink.entity.Equipo;
-import com.starlink.mapper.EquipoMapper;
-import com.starlink.repository.EquipoRepository;
+import com.starlink.service.EquipoService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
-import java.math.BigDecimal;
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
 import java.util.List;
-import java.util.stream.Collectors;
 
-@Service
+@RestController
+@RequestMapping("/api/equipos")
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
-@Transactional
-public class EquipoService {
+public class EquipoController {
 
-    private final EquipoRepository equipoRepository;
-    private final EquipoMapper equipoMapper;
+    private final EquipoService equipoService;
 
-    public List<EquipoDTO> getAllEquipos() {
-        return equipoRepository.findAll()
-                .stream()
-                .map(equipoMapper::toDTO)
-                .collect(Collectors.toList());
+    /**
+     * Obtener todos los equipos
+     * GET /api/equipos
+     */
+    @GetMapping
+    public ResponseEntity<ApiResponse<List<EquipoDTO>>> getAllEquipos() {
+        List<EquipoDTO> equipos = equipoService.getAllEquipos();
+        return ResponseEntity.ok(ApiResponse.success("Lista de equipos", equipos));
     }
 
-    public EquipoDTO getEquipo(Long id) {
-        Equipo equipo = equipoRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Equipo no encontrado con ID: " + id));
-        return equipoMapper.toDTO(equipo);
+    /**
+     * Obtener un equipo por ID
+     * GET /api/equipos/{id}
+     */
+    @GetMapping("/{id}")
+    public ResponseEntity<ApiResponse<EquipoDTO>> getEquipo(@PathVariable Long id) {
+        EquipoDTO equipo = equipoService.getEquipo(id);
+        return ResponseEntity.ok(ApiResponse.success("Equipo encontrado", equipo));
     }
 
-    public EquipoDTO createEquipo(EquipoDTO equipoDTO) {
-        Equipo equipo = equipoMapper.toEntity(equipoDTO);
-        equipo.setActivo("SI");
-        equipo.setDeudaMensual(equipo.getMontoMensual());
-        equipo.setTotalPagadoMesActual(BigDecimal.ZERO);
-        calcularEstadoPago(equipo);
-        Equipo saved = equipoRepository.save(equipo);
-        return equipoMapper.toDTO(saved);
+    /**
+     * Crear un nuevo equipo
+     * POST /api/equipos
+     */
+    @PostMapping
+    public ResponseEntity<ApiResponse<EquipoDTO>> createEquipo(@RequestBody EquipoDTO equipoDTO) {
+        EquipoDTO created = equipoService.createEquipo(equipoDTO);
+        return ResponseEntity.status(HttpStatus.CREATED)
+                .body(ApiResponse.success("Equipo creado exitosamente", created));
     }
 
-    public EquipoDTO updateEquipo(Long id, EquipoDTO equipoDTO) {
-        Equipo equipoExistente = equipoRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Equipo no encontrado con ID: " + id));
-
-        equipoExistente.setCategoria(equipoDTO.getCategoria());
-        equipoExistente.setNombre(equipoDTO.getNombre());
-        equipoExistente.setCorreo(equipoDTO.getCorreo());
-        equipoExistente.setContraseña(equipoDTO.getContraseña());
-        equipoExistente.setMontoMensual(equipoDTO.getMontoMensual());
-        equipoExistente.setVencimiento(equipoDTO.getVencimiento());
-        equipoExistente.setCuentaTarjeta(equipoDTO.getCuentaTarjeta());
-        equipoExistente.setNumeroEquipos(equipoDTO.getNumeroEquipos());
-        equipoExistente.setNumeroId(equipoDTO.getNumeroId());
-        equipoExistente.setNumeroSerie(equipoDTO.getNumeroSerie());
-        equipoExistente.setNumeroKit(equipoDTO.getNumeroKit());
-        equipoExistente.setActivo(equipoDTO.getActivo());
-        equipoExistente.setNotas(equipoDTO.getNotas());
-
-        calcularEstadoPago(equipoExistente);
-
-        Equipo updated = equipoRepository.save(equipoExistente);
-        return equipoMapper.toDTO(updated);
+    /**
+     * Actualizar un equipo existente
+     * PUT /api/equipos/{id}
+     */
+    @PutMapping("/{id}")
+    public ResponseEntity<ApiResponse<EquipoDTO>> updateEquipo(
+            @PathVariable Long id,
+            @RequestBody EquipoDTO equipoDTO) {
+        EquipoDTO updated = equipoService.updateEquipo(id, equipoDTO);
+        return ResponseEntity.ok(ApiResponse.success("Equipo actualizado exitosamente", updated));
     }
 
-    public void deleteEquipo(Long id) {
-        if (!equipoRepository.existsById(id)) {
-            throw new RuntimeException("Equipo no encontrado con ID: " + id);
-        }
-        equipoRepository.deleteById(id);
+    /**
+     * Eliminar un equipo
+     * DELETE /api/equipos/{id}
+     */
+    @DeleteMapping("/{id}")
+    public ResponseEntity<ApiResponse<Void>> deleteEquipo(@PathVariable Long id) {
+        equipoService.deleteEquipo(id);
+        return ResponseEntity.ok(ApiResponse.success("Equipo eliminado exitosamente", null));
     }
 
-    public List<EquipoDTO> getEquiposByCategoria(String categoria) {
-        return equipoRepository.findByCategoria(categoria)
-                .stream()
-                .map(equipoMapper::toDTO)
-                .collect(Collectors.toList());
+    /**
+     * Buscar equipos por categoría
+     * GET /api/equipos/categoria/{categoria}
+     */
+    @GetMapping("/categoria/{categoria}")
+    public ResponseEntity<ApiResponse<List<EquipoDTO>>> getEquiposByCategoria(
+            @PathVariable String categoria) {
+        List<EquipoDTO> equipos = equipoService.getEquiposByCategoria(categoria);
+        return ResponseEntity.ok(ApiResponse.success("Equipos de la categoría: " + categoria, equipos));
     }
 
-    public List<EquipoDTO> searchEquipos(String query) {
-        return equipoRepository.findAll()
-                .stream()
-                .filter(e ->
-                        e.getNombre().toLowerCase().contains(query.toLowerCase()) ||
-                                e.getCategoria().toLowerCase().contains(query.toLowerCase()) ||
-                                e.getCorreo().toLowerCase().contains(query.toLowerCase())
-                )
-                .map(equipoMapper::toDTO)
-                .collect(Collectors.toList());
+    /**
+     * Buscar equipos por texto (nombre, categoría, correo)
+     * GET /api/equipos/search?query=texto
+     */
+    @GetMapping("/search")
+    public ResponseEntity<ApiResponse<List<EquipoDTO>>> searchEquipos(
+            @RequestParam String query) {
+        List<EquipoDTO> equipos = equipoService.searchEquipos(query);
+        return ResponseEntity.ok(ApiResponse.success("Resultados de búsqueda", equipos));
     }
 
-    public List<EquipoDTO> getEquiposProximosVencer(Integer dias) {
-        LocalDate hoy = LocalDate.now();
-        LocalDate limite = hoy.plusDays(dias != null ? dias : 7);
+    /**
+     * Obtener equipos próximos a vencer
+     * GET /api/equipos/proximos-vencer?dias=7
+     */
+    @GetMapping("/proximos-vencer")
+    public ResponseEntity<ApiResponse<List<EquipoDTO>>> getEquiposProximosVencer(
+            @RequestParam(required = false, defaultValue = "7") Integer dias) {
+        List<EquipoDTO> equipos = equipoService.getEquiposProximosVencer(dias);
+        return ResponseEntity.ok(ApiResponse.success(
+                "Equipos próximos a vencer en " + dias + " días", equipos));
+    }
 
-        return equipoRepository.findAll()
+    /**
+     * Obtener equipos vencidos
+     * GET /api/equipos/vencidos
+     */
+    @GetMapping("/vencidos")
+    public ResponseEntity<ApiResponse<List<EquipoDTO>>> getEquiposVencidos() {
+        List<EquipoDTO> equipos = equipoService.getEquiposVencidos();
+        return ResponseEntity.ok(ApiResponse.success("Equipos vencidos", equipos));
+    }
+
+    /**
+     * Obtener equipos activos
+     * GET /api/equipos/activos
+     */
+    @GetMapping("/activos")
+    public ResponseEntity<ApiResponse<List<EquipoDTO>>> getEquiposActivos() {
+        List<EquipoDTO> equipos = equipoService.getAllEquipos()
                 .stream()
                 .filter(e -> "SI".equals(e.getActivo()))
-                .filter(e -> e.getVencimiento() != null)
-                .filter(e -> !e.getVencimiento().isBefore(hoy) && !e.getVencimiento().isAfter(limite))
-                .map(equipoMapper::toDTO)
-                .collect(Collectors.toList());
+                .toList();
+        return ResponseEntity.ok(ApiResponse.success("Equipos activos", equipos));
     }
 
-    public List<EquipoDTO> getEquiposVencidos() {
-        LocalDate hoy = LocalDate.now();
-
-        return equipoRepository.findAll()
+    /**
+     * Obtener equipos cancelados
+     * GET /api/equipos/cancelados
+     */
+    @GetMapping("/cancelados")
+    public ResponseEntity<ApiResponse<List<EquipoDTO>>> getEquiposCancelados() {
+        List<EquipoDTO> equipos = equipoService.getAllEquipos()
                 .stream()
-                .filter(e -> "SI".equals(e.getActivo()))
-                .filter(e -> e.getVencimiento() != null && e.getVencimiento().isBefore(hoy))
-                .map(equipoMapper::toDTO)
-                .collect(Collectors.toList());
+                .filter(e -> "NO".equals(e.getActivo()))
+                .toList();
+        return ResponseEntity.ok(ApiResponse.success("Equipos cancelados", equipos));
     }
 
-    public void calcularEstadoPago(Equipo equipo) {
-        BigDecimal totalPagado = equipo.getTotalPagadoMesActual() != null
-                ? equipo.getTotalPagadoMesActual()
-                : BigDecimal.ZERO;
-
-        BigDecimal deuda = equipo.getMontoMensual().subtract(totalPagado);
-        equipo.setDeudaMensual(deuda);
-
-        LocalDate hoy = LocalDate.now();
-
-        if (totalPagado.compareTo(equipo.getMontoMensual()) >= 0) {
-            equipo.setEstadoPago("PAGADO");
-        } else if (equipo.getVencimiento().isBefore(hoy)) {
-            equipo.setEstadoPago("VENCIDO");
-        } else {
-            equipo.setEstadoPago("PENDIENTE");
-        }
-    }
-
-    public List<Equipo> buscarPorEstadoPago(String estadoPago) {
-        return equipoRepository.findAll()
+    /**
+     * Obtener equipos por estado de pago
+     * GET /api/equipos/estado-pago/{estado}
+     * Estados válidos: PAGADO, PENDIENTE, VENCIDO
+     */
+    @GetMapping("/estado-pago/{estado}")
+    public ResponseEntity<ApiResponse<List<EquipoDTO>>> getEquiposByEstadoPago(
+            @PathVariable String estado) {
+        List<EquipoDTO> equipos = equipoService.getAllEquipos()
                 .stream()
-                .filter(e -> estadoPago.equals(e.getEstadoPago()))
-                .collect(Collectors.toList());
+                .filter(e -> estado.equalsIgnoreCase(e.getEstadoPago()))
+                .toList();
+        return ResponseEntity.ok(ApiResponse.success(
+                "Equipos con estado: " + estado, equipos));
     }
 }
+
 

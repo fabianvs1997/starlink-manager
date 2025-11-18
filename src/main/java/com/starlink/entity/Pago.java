@@ -9,11 +9,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "pagos", indexes = {
-        @Index(name = "idx_equipo_fecha", columnList = "equipoId, fechaPago"),
-        @Index(name = "idx_metodo", columnList = "metodo"),
-        @Index(name = "idx_fecha_pago", columnList = "fechaPago")
-})
+@Table(name = "pagos")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -35,16 +31,14 @@ public class Pago {
     @Column(columnDefinition = "TEXT")
     private String descripcion;
 
-    // ========== CAMPOS ADICIONALES ==========
-
     @Column(length = 50)
-    private String metodo = "Efectivo"; // Efectivo, Transferencia, Tarjeta, Cheque
+    private String metodo = "Efectivo";
 
     @Column(length = 100)
-    private String referencia; // Número de referencia bancaria
+    private String referencia;
 
     @Column(name = "comprobante_ruta", length = 500)
-    private String comprobanteRuta; // Ruta del archivo de comprobante
+    private String comprobanteRuta;
 
     @Column(name = "usuario_registro", length = 50)
     private String usuarioRegistro;

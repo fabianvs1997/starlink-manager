@@ -7,24 +7,33 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.YearMonth;
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/pagos")
-//@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*")
 public class PagoController {
 
     @Autowired
     private PagoService pagoService;
 
     @PostMapping("/equipo/{equipoId}")
-    public ResponseEntity<ApiResponse<PagoDTO>> createPago(@PathVariable Long equipoId, @RequestBody PagoDTO pagoDTO) {
-        pagoService.validatePago(equipoId, pagoDTO.getMonto());
+    public ResponseEntity<ApiResponse<PagoDTO>> createPago(
+            @PathVariable Long equipoId,
+            @RequestBody PagoDTO pagoDTO) {
+
+        if (!pagoService.validatePago(equipoId, pagoDTO.getMonto())) {
+            return ResponseEntity.badRequest()
+                    .body(ApiResponse.error("Datos de pago inválidos"));
+        }
+
         PagoDTO created = pagoService.createPago(equipoId, pagoDTO);
         return ResponseEntity.status(HttpStatus.CREATED)
-                .body(ApiResponse.success("Pago registrado", created));
+                .body(ApiResponse.success("Pago registrado exitosamente", created));
     }
 
     @GetMapping("/equipo/{equipoId}")
@@ -34,10 +43,12 @@ public class PagoController {
     }
 
     @GetMapping("/equipo/{equipoId}/mes/{mes}")
-    public ResponseEntity<ApiResponse<Double>> getTotalPagadoMes(@PathVariable Long equipoId, @PathVariable String mes) {
+    public ResponseEntity<ApiResponse<BigDecimal>> getTotalPagadoMes(
+            @PathVariable Long equipoId,
+            @PathVariable String mes) {
         YearMonth yearMonth = YearMonth.parse(mes);
-        Double total = pagoService.getTotalPagadoMes(equipoId, yearMonth);
-        return ResponseEntity.ok(ApiResponse.success("Total pagado", total));
+        BigDecimal total = pagoService.getTotalPagadoMes(equipoId, yearMonth);
+        return ResponseEntity.ok(ApiResponse.success("Total pagado en el mes", total));
     }
 
     @GetMapping("/periodo")
@@ -49,14 +60,14 @@ public class PagoController {
     }
 
     @GetMapping("/total-mes-actual")
-    public ResponseEntity<ApiResponse<Double>> getTotalPagadoMesActual() {
-        Double total = pagoService.getTotalPagadoMesActual();
+    public ResponseEntity<ApiResponse<BigDecimal>> getTotalPagadoMesActual() {
+        BigDecimal total = pagoService.getTotalPagadoMesActual();
         return ResponseEntity.ok(ApiResponse.success("Total pagado este mes", total));
     }
 
     @DeleteMapping("/{id}")
     public ResponseEntity<ApiResponse<Void>> deletePago(@PathVariable Long id) {
         pagoService.deletePago(id);
-        return ResponseEntity.ok(ApiResponse.success("Pago eliminado", null));
+        return ResponseEntity.ok(ApiResponse.success("Pago eliminado exitosamente", null));
     }
 }

@@ -2,7 +2,6 @@ package com.starlink.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
@@ -12,7 +11,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Service
-@RequiredArgsConstructor
 @Slf4j
 public class StarlinkService {
 
@@ -25,11 +23,16 @@ public class StarlinkService {
     private final RestTemplate restTemplate = new RestTemplate();
     private final ObjectMapper objectMapper = new ObjectMapper();
 
+    /**
+     * Obtener estadísticas del terminal Starlink
+     */
     public Map<String, Object> getStarlinkStats() {
         Map<String, Object> stats = new HashMap<>();
 
         try {
             String url = String.format("http://%s:%d/api/status", starlinkIp, starlinkPort);
+            log.debug("Consultando Starlink en: {}", url);
+
             String response = restTemplate.getForObject(url, String.class);
 
             if (response != null) {
@@ -42,9 +45,13 @@ public class StarlinkService {
                 stats.put("packetLossPercent", jsonNode.path("pop_ping_drop_rate").asDouble() * 100);
                 stats.put("obstructionPercent", jsonNode.path("obstruction_percent_time").asDouble() * 100);
                 stats.put("statusMessage", "Conectado - Funcionando correctamente");
+
+                log.info("Estadísticas obtenidas exitosamente");
             }
         } catch (Exception e) {
             log.error("Error al obtener estadísticas de Starlink: {}", e.getMessage());
+
+            // Retornar valores por defecto cuando no hay conexión
             stats.put("isConnected", false);
             stats.put("downlinkMbps", 0.0);
             stats.put("uplinkMbps", 0.0);
@@ -52,8 +59,10 @@ public class StarlinkService {
             stats.put("packetLossPercent", 0.0);
             stats.put("obstructionPercent", 0.0);
             stats.put("statusMessage", "Desconectado - No se puede conectar al terminal Starlink");
+            stats.put("errorMessage", e.getMessage());
         }
 
         return stats;
     }
 }
+

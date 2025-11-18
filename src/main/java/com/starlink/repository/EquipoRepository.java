@@ -30,9 +30,6 @@ public interface EquipoRepository extends JpaRepository<Equipo, Long> {
     long countEquiposActivos();
 
 
-    List<Equipo> findByCategoria(String categoria);
-
-    List<Equipo> findByActivo(String activo);
 
     List<Equipo> findByEstadoPago(String estadoPago);
 }

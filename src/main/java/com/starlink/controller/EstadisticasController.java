@@ -7,9 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.math.BigDecimal;
+
 @RestController
 @RequestMapping("/api/estadisticas")
-//@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*")
 public class EstadisticasController {
 
     @Autowired
@@ -22,8 +24,8 @@ public class EstadisticasController {
     }
 
     @GetMapping("/deuda-total")
-    public ResponseEntity<ApiResponse<Double>> getDeudaTotal() {
-        Double deuda = estadisticasService.getTotalDeuda();
+    public ResponseEntity<ApiResponse<BigDecimal>> getDeudaTotal() {
+        BigDecimal deuda = estadisticasService.getTotalDeuda();
         return ResponseEntity.ok(ApiResponse.success("Deuda total del mes", deuda));
     }
 }

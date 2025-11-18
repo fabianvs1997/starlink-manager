@@ -9,12 +9,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "equipos", indexes = {
-        @Index(name = "idx_categoria", columnList = "categoria"),
-        @Index(name = "idx_estado_pago", columnList = "estadoPago"),
-        @Index(name = "idx_activo", columnList = "activo"),
-        @Index(name = "idx_vencimiento", columnList = "vencimiento")
-})
+@Table(name = "equipos")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -69,28 +64,11 @@ public class Equipo {
     @Column(name = "totalPagadoMesActual", precision = 10, scale = 2)
     private BigDecimal totalPagadoMesActual = BigDecimal.ZERO;
 
-    // ========== CAMPOS ADICIONALES ==========
-
     @Column(columnDefinition = "TEXT")
     private String notas;
 
     @Column(name = "fecha_instalacion")
     private LocalDate fechaInstalacion;
-
-    @Column(precision = 10, scale = 8)
-    private BigDecimal latitud;
-
-    @Column(precision = 11, scale = 8)
-    private BigDecimal longitud;
-
-    @Column(name = "direccion_instalacion", columnDefinition = "TEXT")
-    private String direccionInstalacion;
-
-    @Column(name = "contacto_emergencia", length = 100)
-    private String contactoEmergencia;
-
-    @Column(name = "telefono_contacto", length = 20)
-    private String telefonoContacto;
 
     @Column(name = "ultima_modificacion")
     private LocalDateTime ultimaModificacion;
@@ -112,4 +90,3 @@ public class Equipo {
         ultimaModificacion = LocalDateTime.now();
     }
 }
-

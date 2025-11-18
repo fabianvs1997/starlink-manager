@@ -1,54 +1,74 @@
 package com.starlink.controller;
 
-import com.starlink.dto.StarlinkStats;
+import com.starlink.dto.ApiResponse;
 import com.starlink.service.StarlinkService;
-import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
 import java.util.Map;
 
 @RestController
 @RequestMapping("/api/starlink")
-@RequiredArgsConstructor
-//@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*")
 public class StarlinkController {
 
-    private final StarlinkService starlinkService;
+    @Autowired
+    private StarlinkService starlinkService;
 
     /**
+     * Obtener estadísticas en tiempo real del terminal Starlink
      * GET /api/starlink/stats
-     * Retorna las estadísticas actuales de Starlink
      */
     @GetMapping("/stats")
-    public ResponseEntity<StarlinkStats> obtenerEstadisticas() {
-        StarlinkStats stats = starlinkService.obtenerEstadoActual();
-        if (stats != null) {
-            return ResponseEntity.ok(stats);
+    public ResponseEntity<ApiResponse<Map<String, Object>>> getStarlinkStats() {
+        try {
+            Map<String, Object> stats = starlinkService.getStarlinkStats();
+            return ResponseEntity.ok(ApiResponse.success("Estadísticas de Starlink", stats));
+        } catch (Exception e) {
+            return ResponseEntity.status(500)
+                    .body(ApiResponse.error("Error al obtener estadísticas: " + e.getMessage()));
         }
-        return ResponseEntity.status(503).body(null);
     }
 
     /**
-     * GET /api/starlink/health
-     * Retorna el estado de salud de Starlink
+     * Verificar conexión con el terminal Starlink
+     * GET /api/starlink/status
      */
-    @GetMapping("/health")
-    public ResponseEntity<Map<String, Object>> obtenerSalud() {
-        StarlinkStats stats = starlinkService.obtenerEstadoActual();
+    @GetMapping("/status")
+    public ResponseEntity<ApiResponse<Map<String, Object>>> getStatus() {
+        try {
+            Map<String, Object> stats = starlinkService.getStarlinkStats();
+            boolean isConnected = (boolean) stats.getOrDefault("isConnected", false);
+            String message = isConnected ? "Conectado al terminal Starlink" : "Desconectado del terminal Starlink";
 
-        Map<String, Object> health = new HashMap<>();
-        if (stats != null && stats.getIsConnected()) {
-            health.put("status", "UP");
-            health.put("message", stats.getStatusMessage());
-            health.put("latency", stats.getLatencyMs() + " ms");
-            health.put("speed", stats.getDownlinkMbps().intValue() + " Mbps ↓");
-            return ResponseEntity.ok(health);
+            return ResponseEntity.ok(ApiResponse.success(message, stats));
+        } catch (Exception e) {
+            return ResponseEntity.status(500)
+                    .body(ApiResponse.error("Error al verificar estado: " + e.getMessage()));
         }
+    }
 
-        health.put("status", "DOWN");
-        health.put("message", "Starlink no accesible");
-        return ResponseEntity.status(503).body(health);
+    /**
+     * Obtener métricas simplificadas
+     * GET /api/starlink/metrics
+     */
+    @GetMapping("/metrics")
+    public ResponseEntity<ApiResponse<Map<String, Object>>> getMetrics() {
+        try {
+            Map<String, Object> stats = starlinkService.getStarlinkStats();
+
+            Map<String, Object> metrics = Map.of(
+                    "downlinkMbps", stats.getOrDefault("downlinkMbps", 0.0),
+                    "uplinkMbps", stats.getOrDefault("uplinkMbps", 0.0),
+                    "latencyMs", stats.getOrDefault("latencyMs", 0.0),
+                    "packetLossPercent", stats.getOrDefault("packetLossPercent", 0.0)
+            );
+
+            return ResponseEntity.ok(ApiResponse.success("Métricas de red", metrics));
+        } catch (Exception e) {
+            return ResponseEntity.status(500)
+                    .body(ApiResponse.error("Error al obtener métricas: " + e.getMessage()));
+        }
     }
 }
