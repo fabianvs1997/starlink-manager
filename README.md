@@ -40,7 +40,7 @@ Desarrollado completamente usando **Perplexity AI** - Demostrando el poder de la
 <table>
   <tr>
     <td width="50%">
-
+      
 ### 📊 **Dashboard Inteligente**
 - ✅ Estadísticas en tiempo real
 - 📈 Gráficos interactivos con Chart.js
@@ -50,7 +50,7 @@ Desarrollado completamente usando **Perplexity AI** - Demostrando el poder de la
 
     </td>
     <td width="50%">
-
+      
 ### 📱 **Gestión de Equipos**
 - ➕ CRUD completo de equipos
 - 🏷️ Categorización avanzada
@@ -62,7 +62,7 @@ Desarrollado completamente usando **Perplexity AI** - Demostrando el poder de la
   </tr>
   <tr>
     <td width="50%">
-
+      
 ### 💰 **Sistema de Pagos**
 - 💳 Múltiples métodos de pago
 - 📅 **Actualización automática de vencimientos**
@@ -72,7 +72,7 @@ Desarrollado completamente usando **Perplexity AI** - Demostrando el poder de la
 
     </td>
     <td width="50%">
-
+      
 ### 🛰️ **Monitor Starlink**
 - 📡 Estadísticas en tiempo real
 - ⚡ Latencia y velocidad
@@ -129,27 +129,29 @@ Desarrollado completamente usando **Perplexity AI** - Demostrando el poder de la
 
 ### 📋 Requisitos Previos
 
+```bash
 ✅ Java JDK 17+
 ✅ Maven 3.8+
 ✅ MySQL 8.0+
 ✅ Git
 ✅ Un navegador moderno (Chrome, Firefox, Edge)
-
-
+```
 
 ### ⚡ Instalación en 5 pasos
 
 <details>
 <summary><b>1️⃣ Clonar el Repositorio</b></summary>
 
+```bash
 git clone https://github.com/fabianvs1997/starlink-manager.git
 cd starlink-manager
-
+```
 </details>
 
 <details>
 <summary><b>2️⃣ Configurar Base de Datos</b></summary>
 
+```sql
 -- Crear base de datos
 CREATE DATABASE starlink_manager;
 
@@ -158,8 +160,7 @@ USE starlink_manager;
 
 -- Importar schema (opcional)
 SOURCE database/schema.sql;
-
-
+```
 </details>
 
 <details>
@@ -167,22 +168,23 @@ SOURCE database/schema.sql;
 
 Edita `src/main/resources/application.properties`:
 
+```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/starlink_manager
 spring.datasource.username=TU_USUARIO
 spring.datasource.password=TU_PASSWORD
 server.port=8081
-
-
+```
 </details>
 
 <details>
 <summary><b>4️⃣ Ejecutar Backend</b></summary>
 
-Compilar y ejecutar
+```bash
+# Compilar y ejecutar
 mvn spring-boot:run
 
-Backend corriendo en: http://localhost:8081
-text
+# Backend corriendo en: http://localhost:8081
+```
 </details>
 
 <details>
@@ -194,52 +196,278 @@ text
 3. Selecciona "Open with Live Server"
 
 **Opción B: Python**
+```bash
 python -m http.server 8000
-
-Abre: http://localhost:8000
-
+# Abre: http://localhost:8000
+```
 
 **Opción C: Node.js**
+```bash
 npm install -g http-server
 http-server -p 8000
-
-
+```
 </details>
 
 ---
 
-## 📖 Estructura del Proyecto
+## 📁 Estructura del Proyecto
 
+```plaintext
 starlink-manager/
 │
-├── 📂 src/main/java/com/starlink/
-│ ├── 🎮 controller/ # Controladores REST API
-│ ├── 🧠 service/ # Lógica de negocio
-│ ├── 💾 repository/ # Acceso a datos JPA
-│ ├── 📦 entity/ # Entidades de base de datos
-│ ├── 📋 dto/ # Data Transfer Objects
-│ ├── 🔄 mapper/ # Conversión DTO ↔ Entity
-│ └── ⚙️ config/ # Configuración Spring
+├── 📂 src/
+│   ├── 📂 main/
+│   │   ├── 📂 java/com/starlink/
+│   │   │   │
+│   │   │   ├── 🎮 controller/              # Controladores REST API
+│   │   │   │   ├── EquipoController.java
+│   │   │   │   ├── PagoController.java
+│   │   │   │   ├── EstadisticasController.java
+│   │   │   │   ├── StarlinkController.java
+│   │   │   │   └── AuthController.java
+│   │   │   │
+│   │   │   ├── 🧠 service/                 # Lógica de negocio
+│   │   │   │   ├── EquipoService.java
+│   │   │   │   ├── PagoService.java        # ⚡ Actualización automática de vencimientos
+│   │   │   │   ├── EstadisticasService.java
+│   │   │   │   ├── StarlinkService.java
+│   │   │   │   ├── AuthService.java
+│   │   │   │   └── JwtService.java
+│   │   │   │
+│   │   │   ├── 💾 repository/              # Acceso a datos (JPA)
+│   │   │   │   ├── EquipoRepository.java
+│   │   │   │   ├── PagoRepository.java
+│   │   │   │   ├── UsuarioRepository.java
+│   │   │   │   ├── NotificacionRepository.java
+│   │   │   │   └── ConfiguracionRepository.java
+│   │   │   │
+│   │   │   ├── 📦 entity/                  # Entidades de base de datos
+│   │   │   │   ├── Equipo.java
+│   │   │   │   ├── Pago.java
+│   │   │   │   ├── Usuario.java
+│   │   │   │   ├── Notificacion.java
+│   │   │   │   └── Configuracion.java
+│   │   │   │
+│   │   │   ├── 📋 dto/                     # Data Transfer Objects
+│   │   │   │   ├── EquipoDTO.java
+│   │   │   │   ├── PagoDTO.java
+│   │   │   │   ├── EstadisticasDTO.java
+│   │   │   │   ├── StarlinkStats.java
+│   │   │   │   ├── ApiResponse.java
+│   │   │   │   └── AuthResponse.java
+│   │   │   │
+│   │   │   ├── 🔄 mapper/                  # Conversión DTO ↔ Entity
+│   │   │   │   ├── EquipoMapper.java
+│   │   │   │   └── PagoMapper.java
+│   │   │   │
+│   │   │   └── ⚙️ config/                  # Configuración Spring
+│   │   │       ├── SecurityConfig.java
+│   │   │       ├── CorsConfig.java
+│   │   │       └── SwaggerConfig.java
+│   │   │
+│   │   └── 📂 resources/
+│   │       ├── application.properties       # Configuración principal
+│   │       ├── application-dev.properties   # Perfil desarrollo
+│   │       ├── application-prod.properties  # Perfil producción
+│   │       └── 📂 static/                   # Archivos estáticos
+│   │
+│   └── 📂 test/                             # Tests unitarios e integración
+│       └── 📂 java/com/starlink/
+│           ├── EquipoServiceTest.java
+│           ├── PagoServiceTest.java
+│           └── EquipoControllerTest.java
 │
 ├── 📂 frontend/
-│ ├── 🏠 index.html # HTML principal
-│ └── 📂 assets/
-│ ├── 🎨 css/ # Estilos (modular)
-│ └── 📜 js/
-│ ├── app.js # Router y main
-│ ├── 🔧 core/ # Núcleo (API, config, utils)
-│ ├── 🧩 components/ # Componentes (toast, modal)
-│ └── 📦 modules/ # Módulos (dashboard, equipos, pagos)
+│   ├── 🏠 index.html                        # HTML principal
+│   │
+│   └── 📂 assets/
+│       │
+│       ├── 🎨 css/                          # Estilos (modular)
+│       │   ├── main.css                     # Estilos base y variables
+│       │   ├── components.css               # Componentes reutilizables
+│       │   └── theme.css                    # Temas y módulos específicos
+│       │
+│       └── 📜 js/
+│           ├── app.js                       # 🚀 Inicializador y router principal
+│           │
+│           ├── 🔧 core/                     # Núcleo del sistema
+│           │   ├── config.js                # Configuración (API URL, timeout)
+│           │   ├── api.js                   # Cliente HTTP (Fetch API)
+│           │   ├── utils.js                 # Utilidades (formateo, validación)
+│           │   └── storage.js               # Gestión de localStorage
+│           │
+│           ├── 🧩 components/               # Componentes reutilizables
+│           │   ├── toast.js                 # Sistema de notificaciones
+│           │   ├── modal.js                 # Ventanas modales
+│           │   └── loader.js                # Indicador de carga
+│           │
+│           └── 📦 modules/                  # Módulos de la aplicación
+│               ├── dashboard.js             # 📊 Dashboard principal
+│               ├── equipos.js               # 📱 Gestión de equipos
+│               ├── pagos.js                 # 💰 Gestión de pagos
+│               ├── starlink.js              # 🛰️ Monitor Starlink
+│               ├── graficos.js              # 📈 Análisis y gráficos
+│               ├── notificaciones.js        # 🔔 Centro de notificaciones
+│               └── reportes.js              # 📋 Generación de reportes
 │
 ├── 📂 database/
-│ └── schema.sql # Schema de base de datos
+│   ├── schema.sql                           # Schema de base de datos
+│   ├── seed-data.sql                        # Datos de prueba
+│   └── migrations/                          # Migraciones de BD
 │
-├── 📄 README.md # Este archivo
-├── 📄 .gitignore # Archivos ignorados
-├── 📄 pom.xml # Configuración Maven
-└── 📄 LICENSE # Licencia MIT
+├── 📂 docs/                                 # Documentación
+│   ├── CONTRIBUTING.md                      # Guía de contribución
+│   ├── CHANGELOG.md                         # Registro de cambios
+│   ├── git-flow-guide.md                    # Guía de Git Flow
+│   └── api-documentation.md                 # Documentación de API
+│
+├── 📂 .github/                              # GitHub Actions
+│   └── workflows/
+│       ├── ci-develop.yml                   # CI/CD para develop
+│       ├── ci-main.yml                      # CI/CD para main
+│       └── release.yml                      # Automatización de releases
+│
+├── 📄 .gitignore                            # Archivos ignorados por Git
+├── 📄 .gitattributes                        # Atributos de Git
+├── 📄 README.md                             # Este archivo
+├── 📄 LICENSE                               # Licencia MIT
+├── 📄 VERSION                               # Versión actual (2.0.0)
+└── 📄 pom.xml                               # Configuración Maven
+```
 
+---
 
+### 🗂️ Descripción de Carpetas Principales
+
+<table>
+<tr>
+<td width="30%"><b>📂 Carpeta</b></td>
+<td width="70%"><b>📝 Descripción</b></td>
+</tr>
+
+<tr>
+<td><code>controller/</code></td>
+<td>Endpoints REST API. Recibe peticiones HTTP y delega al service.</td>
+</tr>
+
+<tr>
+<td><code>service/</code></td>
+<td>Lógica de negocio. Contiene toda la lógica principal de la aplicación.</td>
+</tr>
+
+<tr>
+<td><code>repository/</code></td>
+<td>Acceso a datos. Interfaces JPA para interactuar con la base de datos.</td>
+</tr>
+
+<tr>
+<td><code>entity/</code></td>
+<td>Entidades JPA. Modelos que se mapean a tablas de la base de datos.</td>
+</tr>
+
+<tr>
+<td><code>dto/</code></td>
+<td>Data Transfer Objects. Estructuras para transferir datos entre capas.</td>
+</tr>
+
+<tr>
+<td><code>mapper/</code></td>
+<td>Conversión entre DTO y Entity. Transforma objetos entre capas.</td>
+</tr>
+
+<tr>
+<td><code>config/</code></td>
+<td>Configuración de Spring Boot. Security, CORS, Swagger, etc.</td>
+</tr>
+
+<tr>
+<td><code>frontend/assets/css/</code></td>
+<td>Estilos CSS modularizados con variables y temas.</td>
+</tr>
+
+<tr>
+<td><code>frontend/assets/js/core/</code></td>
+<td>Núcleo del frontend. API client, utilidades, configuración.</td>
+</tr>
+
+<tr>
+<td><code>frontend/assets/js/modules/</code></td>
+<td>Módulos funcionales. Cada módulo es una vista/funcionalidad.</td>
+</tr>
+
+<tr>
+<td><code>database/</code></td>
+<td>Scripts SQL. Schema, datos de prueba y migraciones.</td>
+</tr>
+
+<tr>
+<td><code>docs/</code></td>
+<td>Documentación técnica del proyecto.</td>
+</tr>
+</table>
+
+---
+
+### 🎯 Arquitectura del Sistema
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                      FRONTEND (SPA)                         │
+│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐        │
+│  │  Dashboard  │  │   Equipos   │  │    Pagos    │        │
+│  └─────────────┘  └─────────────┘  └─────────────┘        │
+│         │                │                 │                │
+│         └────────────────┴─────────────────┘                │
+│                          │                                  │
+│                   ┌──────▼──────┐                          │
+│                   │  API Client  │                          │
+│                   └──────────────┘                          │
+└────────────────────────┬────────────────────────────────────┘
+                         │ HTTP/JSON
+                         │
+┌────────────────────────▼────────────────────────────────────┐
+│                   BACKEND (Spring Boot)                     │
+│  ┌─────────────────────────────────────────────────────┐   │
+│  │              Controllers (REST API)                  │   │
+│  └──────────────────────┬──────────────────────────────┘   │
+│                         │                                   │
+│  ┌──────────────────────▼──────────────────────────────┐   │
+│  │              Services (Lógica de Negocio)           │   │
+│  │  • Validación  • Cálculos  • Reglas de negocio     │   │
+│  └──────────────────────┬──────────────────────────────┘   │
+│                         │                                   │
+│  ┌──────────────────────▼──────────────────────────────┐   │
+│  │         Repositories (Acceso a Datos - JPA)         │   │
+│  └──────────────────────┬──────────────────────────────┘   │
+└─────────────────────────┼───────────────────────────────────┘
+                          │
+                   ┌──────▼──────┐
+                   │   MySQL DB   │
+                   └──────────────┘
+```
+
+---
+
+### 📊 Flujo de Datos
+
+```
+Usuario → Frontend → API Client → Backend Controller → Service → Repository → Database
+                                                                           ↓
+Usuario ← Frontend ← JSON Response ← Controller ← Service ← Repository ← Database
+```
+
+---
+
+### 🔑 Archivos Clave
+
+| Archivo | Descripción |
+|---------|-------------|
+| `app.js` | 🚀 Punto de entrada del frontend. Inicializa router y módulos |
+| `PagoService.java` | ⚡ Actualización automática de vencimientos al registrar pago |
+| `EquipoService.java` | 📱 Lógica de gestión de equipos y estados |
+| `api.js` | 🔌 Cliente HTTP para comunicación con backend |
+| `application.properties` | ⚙️ Configuración de Spring Boot y base de datos |
+| `pom.xml` | 📦 Dependencias Maven del proyecto |
 
 ---
 
@@ -278,31 +506,31 @@ starlink-manager/
 
 ### 📝 Ejemplo de Request
 
+```bash
 POST http://localhost:8081/api/pagos/equipo/1
 Content-Type: application/json
 
 {
-"monto": 2055.00,
-"fechaPago": "2025-12-10",
-"metodo": "Transferencia",
-"descripcion": "Pago mensual diciembre"
+  "monto": 2055.00,
+  "fechaPago": "2025-12-10",
+  "metodo": "Transferencia",
+  "descripcion": "Pago mensual diciembre"
 }
-
-
+```
 
 **Respuesta:**
+```json
 {
-"success": true,
-"message": "✅ Pago registrado - Vencimiento actualizado automáticamente",
-"data": {
-"id": 15,
-"monto": 2055.00,
-"fechaPago": "2025-12-10",
-"nuevaFechaVencimiento": "2026-01-10"
+  "success": true,
+  "message": "✅ Pago registrado - Vencimiento actualizado automáticamente",
+  "data": {
+    "id": 15,
+    "monto": 2055.00,
+    "fechaPago": "2025-12-10",
+    "nuevaFechaVencimiento": "2026-01-10"
+  }
 }
-}
-
-
+```
 
 ---
 
@@ -312,20 +540,22 @@ Content-Type: application/json
 
 El sistema **actualiza automáticamente** la fecha de vencimiento al registrar un pago:
 
+```
 💡 Caso 1: Pago a Tiempo
-Vencimiento actual: 2025-12-15
-Pago realizado: 2025-12-10 ($2,055)
-➡️ Nuevo vencimiento: 2026-01-15 ✅
+   Vencimiento actual: 2025-12-15
+   Pago realizado: 2025-12-10 ($2,055)
+   ➡️ Nuevo vencimiento: 2026-01-15 ✅
 
 💡 Caso 2: Pago Adelantado (3 meses)
-Vencimiento actual: 2025-12-15
-Pago realizado: 2025-12-01 ($6,165)
-➡️ Nuevo vencimiento: 2026-03-15 ✅
+   Vencimiento actual: 2025-12-15
+   Pago realizado: 2025-12-01 ($6,165)
+   ➡️ Nuevo vencimiento: 2026-03-15 ✅
 
 💡 Caso 3: Pago Tardío
-Vencimiento actual: 2025-12-15
-Pago realizado: 2025-12-25 ($2,055)
-➡️ Nuevo vencimiento: 2026-01-25 ✅
+   Vencimiento actual: 2025-12-15
+   Pago realizado: 2025-12-25 ($2,055)
+   ➡️ Nuevo vencimiento: 2026-01-25 ✅
+```
 
 ---
 
@@ -366,29 +596,32 @@ Pago realizado: 2025-12-25 ($2,055)
 
 1. **Fork** el proyecto
 2. Crea una **rama** para tu feature
+   ```bash
    git checkout -b feature/nueva-funcionalidad
-
+   ```
 3. **Commit** tus cambios
+   ```bash
    git commit -m 'feat: agregar nueva funcionalidad'
-
-
+   ```
 4. **Push** a tu rama
+   ```bash
    git push origin feature/nueva-funcionalidad
-
+   ```
 5. Abre un **Pull Request**
 
 ### 📝 Convención de Commits
 
 Usamos [Conventional Commits](https://www.conventionalcommits.org/):
 
-feat: nueva funcionalidad
-fix: corrección de bug
-docs: cambios en documentación
-style: formato de código
+```
+feat:     nueva funcionalidad
+fix:      corrección de bug
+docs:     cambios en documentación
+style:    formato de código
 refactor: refactorización
-test: agregar tests
-chore: tareas de mantenimiento
-
+test:     agregar tests
+chore:    tareas de mantenimiento
+```
 
 ---
 
@@ -452,6 +685,7 @@ Este proyecto demuestra que con las herramientas de IA adecuadas, es posible cre
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
+```
 MIT License
 
 Copyright (c) 2025 Fabian VS
@@ -459,8 +693,7 @@ Copyright (c) 2025 Fabian VS
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction...
-
-
+```
 
 ---
 
