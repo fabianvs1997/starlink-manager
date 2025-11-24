@@ -64,9 +64,54 @@ public class PagoService {
 
         Pago saved = pagoRepository.save(pago);
 
+        // ===== ACTUALIZAR FECHA DE VENCIMIENTO =====
+        actualizarFechaVencimiento(equipo, pagoDTO.getFechaPago(), pagoDTO.getMonto());
+
+        // Actualizar totales y estado del equipo
         actualizarTotalesEquipo(equipo);
 
         return pagoMapper.toDTO(saved);
+    }
+
+    /**
+     * Actualizar la fecha de vencimiento del equipo al registrar un pago
+     *
+     * Lógica:
+     * - Si el pago cubre al menos el monto mensual, se extiende el vencimiento
+     * - Si el pago es a tiempo o anticipado: extiende desde fecha de vencimiento actual
+     * - Si el pago es tardío: extiende desde la fecha del pago
+     * - Permite pagos de múltiples meses
+     */
+    private void actualizarFechaVencimiento(Equipo equipo, LocalDate fechaPago, BigDecimal montoPagado) {
+        LocalDate fechaVencimientoActual = equipo.getVencimiento();
+        BigDecimal montoMensual = equipo.getMontoMensual();
+
+        // Calcular cuántos meses completos cubre el pago
+        int mesesCubiertos = montoPagado.divide(montoMensual, 0, BigDecimal.ROUND_DOWN).intValue();
+
+        if (mesesCubiertos >= 1) {
+            LocalDate nuevaFechaVencimiento;
+
+            // Determinar desde qué fecha extender
+            if (fechaPago.isBefore(fechaVencimientoActual) || fechaPago.isEqual(fechaVencimientoActual)) {
+                // Pago a tiempo o anticipado: extender desde vencimiento actual
+                nuevaFechaVencimiento = fechaVencimientoActual.plusMonths(mesesCubiertos);
+            } else {
+                // Pago tardío: extender desde la fecha del pago
+                nuevaFechaVencimiento = fechaPago.plusMonths(mesesCubiertos);
+            }
+
+            equipo.setVencimiento(nuevaFechaVencimiento);
+
+            System.out.println("📅 Fecha de vencimiento actualizada:");
+            System.out.println("   - Anterior: " + fechaVencimientoActual);
+            System.out.println("   - Nueva: " + nuevaFechaVencimiento);
+            System.out.println("   - Meses cubiertos: " + mesesCubiertos);
+        } else {
+            System.out.println("⚠️ Pago parcial - No se actualiza fecha de vencimiento");
+            System.out.println("   - Monto pagado: $" + montoPagado);
+            System.out.println("   - Monto mensual: $" + montoMensual);
+        }
     }
 
     public List<PagoDTO> getPagosByEquipo(Long equipoId) {
@@ -114,6 +159,11 @@ public class PagoService {
 
         Equipo equipo = equipoRepository.findById(equipoId)
                 .orElseThrow(() -> new RuntimeException("Equipo no encontrado"));
+
+        // Al eliminar un pago, recalcular el vencimiento si es necesario
+        // NOTA: Esto es opcional, depende de tu lógica de negocio
+        // Si eliminas un pago, podrías querer revertir la extensión del vencimiento
+
         actualizarTotalesEquipo(equipo);
     }
 
