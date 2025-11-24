@@ -61222,3 +61222,1526 @@ Accept-Language: es-ES,es;q=0.9
 2025-11-23 20:32:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
 2025-11-23 20:32:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
 2025-11-23 20:32:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:32:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:32:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:32:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:32:36 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1763951556663 sessioncount 0
+2025-11-23 20:32:36 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2025-11-23 20:32:59 [http-nio-8081-exec-8] DEBUG o.a.tomcat.util.threads.LimitLatch - Counting down[http-nio-8081-exec-8] latch=1
+2025-11-23 20:32:59 [http-nio-8081-exec-8] DEBUG o.apache.tomcat.util.net.NioEndpoint - Calling [org.apache.tomcat.util.net.NioEndpoint@3222b4a8].closeSocket([org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@47949510:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:63442]])
+2025-11-23 20:33:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:33:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:33:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:33:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:33:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:33:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:33:36 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1763951616703 sessioncount 0
+2025-11-23 20:33:36 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 2 expired sessions: 0
+2025-11-23 20:34:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:34:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:34:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:34:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:34:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:34:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:34:36 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1763951676750 sessioncount 0
+2025-11-23 20:34:36 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2025-11-23 20:35:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:35:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:35:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:35:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:35:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:35:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:35:36 [Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1763951736860 sessioncount 0
+2025-11-23 20:35:36 [Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 1 expired sessions: 0
+2025-11-23 20:36:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:36:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:36:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:36:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:36:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:36:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:36:36 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1763951796959 sessioncount 0
+2025-11-23 20:36:36 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 1 expired sessions: 0
+2025-11-23 20:37:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:37:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:37:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:37:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:37:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:37:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:37:36 [Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1763951856995 sessioncount 0
+2025-11-23 20:37:36 [Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2025-11-23 20:38:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:38:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:38:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:38:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:38:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:38:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:38:37 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1763951917043 sessioncount 0
+2025-11-23 20:38:37 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2025-11-23 20:39:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:39:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:39:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:39:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:39:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:39:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:39:37 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1763951977077 sessioncount 0
+2025-11-23 20:39:37 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2025-11-23 20:40:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:40:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:40:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:40:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:40:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:40:34 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:40:37 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1763952037141 sessioncount 0
+2025-11-23 20:40:37 [Catalina-utility-1] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2025-11-23 20:40:38 [http-nio-8081-Acceptor] DEBUG o.a.tomcat.util.threads.LimitLatch - Counting up[http-nio-8081-Acceptor] latch=1
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [610]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.t.util.net.SocketWrapperBase - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read from buffer: [0]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.apache.tomcat.util.net.NioEndpoint - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read direct from socket: [607]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [GET /api/estadisticas HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: application/json
+sec-ch-ua: "Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+Origin: http://localhost:49828
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:49828/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: es-ES,es;q=0.9
+
+]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.c.a.AuthenticatorBase - Security checking request GET /api/estadisticas
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.apache.catalina.realm.RealmBase -   No applicable constraints defined
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.c.a.AuthenticatorBase - Not subject to any constraint
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/estadisticas
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/estadisticas
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1287683181<open>)] for JPA transaction
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [HikariProxyConnection@1682910612 wrapping com.mysql.cj.jdbc.ConnectionImpl@408934ef] read-only
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@4a56d244]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : e1_0
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(com.starlink.entity.Equipo(36092194114200))] with identifierForTableGroup [com.starlink.entity.Equipo] for NavigablePath [com.starlink.entity.Equipo] 
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [com.starlink.entity.Equipo(36092194114200)]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).activo]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).categoria]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).contraseña]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).correo]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).cuentaTarjeta]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).deudaMensual]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).estadoPago]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).fechaCreacion]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).fechaInstalacion]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).modificadoPor]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).montoMensual]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).nombre]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).notas]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).numeroEquipos]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).numeroId]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).numeroKit]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).numeroSerie]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).totalPagadoMesActual]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36092194114200).ultimaModificacion]
+ |  \-BasicFetch [com.starlink.entity.Equipo(36092194114200).vencimiento]
+
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (e1 : com.starlink.entity.Equipo(36092194114200)) {
+          primaryTableReference : equipos as e1_0
+        }
+      }
+    }
+
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.sql.exec - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Initializer list
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results -     com.starlink.entity.Equipo(36092194114200) -> EntityResultInitializer(com.starlink.entity.Equipo(36092194114200))@2025774027 (SingleTableEntityPersister(com.starlink.entity.Equipo))
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        e1_0.id,
+        e1_0.activo,
+        e1_0.categoria,
+        e1_0.contraseña,
+        e1_0.correo,
+        e1_0.cuenta_tarjeta,
+        e1_0.deuda_mensual,
+        e1_0.estado_pago,
+        e1_0.fecha_creacion,
+        e1_0.fecha_instalacion,
+        e1_0.modificado_por,
+        e1_0.monto_mensual,
+        e1_0.nombre,
+        e1_0.notas,
+        e1_0.numero_equipos,
+        e1_0.numero_id,
+        e1_0.numero_kit,
+        e1_0.numero_serie,
+        e1_0.total_pagado_mes_actual,
+        e1_0.ultima_modificacion,
+        e1_0.vencimiento 
+    from
+        equipos e1_0
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [4]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 4
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#4] : 127655772
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [Residencial]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [casa22.judiciary005@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-19T00:14:50]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1305.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [22C]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [01000000-00000000-007aa241]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT303063700]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [2DUNI00000193648]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [1305.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-13]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#4
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [5]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 5
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#5] : 796188310
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [38.small169@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [38]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [1038129b-0620721b-98a6b004]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M007829917NR]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831736]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-12]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#5
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [6]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 6
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#6] : 1474501765
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [#q!eRWddGUT8aeT#H#0P]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [chiguiro.crank150@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [29-MAK]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [10c01f8c-87c1011c-d8063a35]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00791643QWW]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00840441]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-18T22:24:40]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-18]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#6
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [7]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#7] : 249255962
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [NO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [Q7UZ8Xvxx8$v1BHhn5@R]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [nissan2.truth976@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [SUSPENDIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [20900f11-87c1011c-d8929034]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00783046TKQ]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831823]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-09]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [8]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 8
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#8] : 778686258
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [starlinksiiv.eggshell917@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PENDIENTE]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [ITINERANTE]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [20901005-87c1011c-d8924085]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00783056MBJ]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831844]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-22]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#8
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [10]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 10
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#10] : 660616199
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RESIDENCIAL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [lopezd5487.1@gmail.com]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [0082]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [1055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [CHEMA]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [01000000-00000000-00c1f675]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT303294413]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [2DWC240500006879]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-14]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#10
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [11]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 11
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#11] : 1755841370
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RESIDENCIAL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [blackerrante@proton.me]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [1882.36]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1882.36]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [SINAI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [40489091-02e16d1b-9886fba5]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00669553CPP]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00712362]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-04]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#11
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [12]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 12
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#12] : 1021808093
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [pg@pD#ua5%tU^9Z5xrursV%Djdq@Y9xrHHEEbkQ9h9f^vHjpPrk@p0!5&kC@EZ5w]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [pantera.thorn675@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [-2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [PANTERA]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - []
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [4038098e-46c0081c-d8b20478]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00669208AK4]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00712004]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [4110.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-23T20:29:10]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-24]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#12
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [13]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 13
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#13] : 1545065772
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [!GE4#GJ0LIrgfdRRgSR6]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [nissan1.baked150@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [GLADIADOR]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [30380317-87f1091c-188f39d2]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M01013462QHT]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT01073029]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-21T22:25:42]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-21]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#13
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [14]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 14
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#14] : 2062619301
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [silverado.comprised497@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [SUELO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [40208f11-c191891b-98dee24e]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00684649GNZ]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00727968]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-09]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#14
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 15
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#15] : 1391164530
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RESIDENCIAL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [mueca.facedown490@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [1402.59]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1402.59]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [10]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [01000000-00000000-00df0bf2]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT400980129]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [4PBA00907927]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#15
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [16]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 16
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#16] : 1390578327
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [httpsstarlink.com.wimp671@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PENDIENTE]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [ROMELI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [00380d99-0620721b-982650ae]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M007829527FS]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831741]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-10]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#16
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [17]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 17
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#17] : 817793874
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [burro.claw570@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [318.43]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [318.43]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [BURRO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [00901712-87c1011c-d89290b8]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00783043S64]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831828]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#17
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [18]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 18
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#18] : 1109967834
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [starlinkplaya.ravishing741@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [4110.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [4110.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [PLAYA]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [50c0978e-c410851b-98e614a5]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00682357M7E]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00725412]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-10-16]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#18
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [19]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36092194114200)): 19
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36092194114200)#19] : 1269378817
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [wUqWcMuNmxbmKH#4rXpp]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [tribilin.vanity993@passinbox.com]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PENDIENTE]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [86-COM]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - []
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [10380884-0620721b-982650ad]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00783011K7S]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831708]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-23T20:17:49]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-18]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36092194114200)#19
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@9f52ce7
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1287683181<open>)]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.e.t.internal.TransactionImpl - committing
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.jdbc.datasource.DataSourceUtils - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1682910612 wrapping com.mysql.cj.jdbc.ConnectionImpl@408934ef]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(1287683181<open>)] after transaction
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : e1_0
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(com.starlink.entity.Equipo(35250696007100))] with identifierForTableGroup [com.starlink.entity.Equipo] for NavigablePath [com.starlink.entity.Equipo] 
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.q.s.sql.BaseSqmToSqlAstConverter - Determining mapping-model type for SqmParameter : org.hibernate.query.sqm.tree.expression.SqmJpaCriteriaParameterWrapper@49f95c33
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.q.s.sql.BaseSqmToSqlAstConverter - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.starlink.entity.Equipo(35250696007100).activo) 
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [com.starlink.entity.Equipo(35250696007100)]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).activo]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).categoria]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).contraseña]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).correo]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).cuentaTarjeta]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).deudaMensual]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).estadoPago]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).fechaCreacion]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).fechaInstalacion]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).modificadoPor]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).montoMensual]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).nombre]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).notas]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).numeroEquipos]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).numeroId]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).numeroKit]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).numeroSerie]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).totalPagadoMesActual]
+ |  +-BasicFetch [com.starlink.entity.Equipo(35250696007100).ultimaModificacion]
+ |  \-BasicFetch [com.starlink.entity.Equipo(35250696007100).vencimiento]
+
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (e1 : com.starlink.entity.Equipo(35250696007100)) {
+          primaryTableReference : equipos as e1_0
+        }
+      }
+    }
+
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.sql.exec - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Initializer list
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results -     com.starlink.entity.Equipo(35250696007100) -> EntityResultInitializer(com.starlink.entity.Equipo(35250696007100))@253195074 (SingleTableEntityPersister(com.starlink.entity.Equipo))
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        e1_0.id,
+        e1_0.activo,
+        e1_0.categoria,
+        e1_0.contraseña,
+        e1_0.correo,
+        e1_0.cuenta_tarjeta,
+        e1_0.deuda_mensual,
+        e1_0.estado_pago,
+        e1_0.fecha_creacion,
+        e1_0.fecha_instalacion,
+        e1_0.modificado_por,
+        e1_0.monto_mensual,
+        e1_0.nombre,
+        e1_0.notas,
+        e1_0.numero_equipos,
+        e1_0.numero_id,
+        e1_0.numero_kit,
+        e1_0.numero_serie,
+        e1_0.total_pagado_mes_actual,
+        e1_0.ultima_modificacion,
+        e1_0.vencimiento 
+    from
+        equipos e1_0 
+    where
+        e1_0.activo=?
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [4]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 4
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#4] : 289309716
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [Residencial]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [casa22.judiciary005@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-19T00:14:50]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1305.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [22C]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [01000000-00000000-007aa241]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT303063700]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [2DUNI00000193648]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [1305.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-13]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#4
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [5]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 5
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#5] : 1276122355
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [38.small169@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [38]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [1038129b-0620721b-98a6b004]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M007829917NR]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831736]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-12]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#5
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [6]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 6
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#6] : 1865874136
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [#q!eRWddGUT8aeT#H#0P]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [chiguiro.crank150@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [29-MAK]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [10c01f8c-87c1011c-d8063a35]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00791643QWW]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00840441]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-18T22:24:40]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-18]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#6
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [8]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 8
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#8] : 181263630
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [starlinksiiv.eggshell917@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PENDIENTE]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [ITINERANTE]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [20901005-87c1011c-d8924085]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00783056MBJ]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831844]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-22]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#8
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [10]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 10
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#10] : 336880573
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RESIDENCIAL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [lopezd5487.1@gmail.com]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [0082]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [1055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [CHEMA]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [01000000-00000000-00c1f675]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT303294413]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [2DWC240500006879]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-14]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#10
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [11]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 11
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#11] : 1492077120
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RESIDENCIAL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [blackerrante@proton.me]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [1882.36]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1882.36]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [SINAI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [40489091-02e16d1b-9886fba5]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00669553CPP]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00712362]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-04]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#11
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [12]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 12
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#12] : 5737407
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [pg@pD#ua5%tU^9Z5xrursV%Djdq@Y9xrHHEEbkQ9h9f^vHjpPrk@p0!5&kC@EZ5w]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [pantera.thorn675@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [-2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [PANTERA]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - []
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [4038098e-46c0081c-d8b20478]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00669208AK4]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00712004]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [4110.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-23T20:29:10]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-24]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#12
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [13]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 13
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#13] : 1679168278
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [!GE4#GJ0LIrgfdRRgSR6]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [nissan1.baked150@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [GLADIADOR]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [30380317-87f1091c-188f39d2]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M01013462QHT]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT01073029]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-21T22:25:42]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-21]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#13
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [14]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 14
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#14] : 1395166626
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [silverado.comprised497@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [SUELO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [40208f11-c191891b-98dee24e]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00684649GNZ]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00727968]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-09]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#14
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 15
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#15] : 1899454669
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RESIDENCIAL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [mueca.facedown490@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [1402.59]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1402.59]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [10]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [01000000-00000000-00df0bf2]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT400980129]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [4PBA00907927]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#15
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [16]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 16
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#16] : 1291917095
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [httpsstarlink.com.wimp671@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PENDIENTE]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [ROMELI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [00380d99-0620721b-982650ae]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M007829527FS]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831741]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-10]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#16
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [17]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 17
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#17] : 433795890
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [burro.claw570@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [318.43]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [318.43]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [BURRO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [00901712-87c1011c-d89290b8]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00783043S64]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831828]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#17
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [18]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 18
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#18] : 235530294
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [starlinkplaya.ravishing741@passmail.net]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [4110.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [4110.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [PLAYA]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [50c0978e-c410851b-98e614a5]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00682357M7E]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00725412]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-10-16]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#18
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [19]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(35250696007100)): 19
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(35250696007100)#19] : 1156759602
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [wUqWcMuNmxbmKH#4rXpp]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [tribilin.vanity993@passinbox.com]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PENDIENTE]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [86-COM]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - []
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [10380884-0620721b-982650ad]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00783011K7S]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831708]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-23T20:17:49]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-18]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(35250696007100)#19
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@25076812
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [607]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.t.util.net.SocketWrapperBase - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read from buffer: [0]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.apache.tomcat.util.net.NioEndpoint - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read direct from socket: [0]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.a.coyote.http11.Http11Processor - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Status in: [OPEN_READ], State out: [OPEN]
+2025-11-23 20:40:38 [http-nio-8081-exec-5] DEBUG o.apache.tomcat.util.net.NioEndpoint - Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [607]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.t.util.net.SocketWrapperBase - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read from buffer: [0]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.apache.tomcat.util.net.NioEndpoint - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read direct from socket: [602]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [GET /api/equipos HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: application/json
+sec-ch-ua: "Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+Origin: http://localhost:49828
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:49828/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: es-ES,es;q=0.9
+
+]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.c.a.AuthenticatorBase - Security checking request GET /api/equipos
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.apache.catalina.realm.RealmBase -   No applicable constraints defined
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.c.a.AuthenticatorBase - Not subject to any constraint
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/equipos
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/equipos
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.starlink.service.EquipoService.getAllEquipos]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1319859905<open>)] for JPA transaction
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.e.t.internal.TransactionImpl - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.e.t.internal.TransactionImpl - begin
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@63a84e30]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1319859905<open>)] for JPA transaction
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.sql.ast.create - Created new SQL alias : e1_0
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.sql.ast.create - Registration of TableGroup [StandardTableGroup(com.starlink.entity.Equipo(36114773056600))] with identifierForTableGroup [com.starlink.entity.Equipo] for NavigablePath [com.starlink.entity.Equipo] 
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.graph.AST - DomainResult Graph:
+ \-EntityResultImpl [com.starlink.entity.Equipo(36114773056600)]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).activo]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).categoria]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).contraseña]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).correo]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).cuentaTarjeta]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).deudaMensual]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).estadoPago]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).fechaCreacion]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).fechaInstalacion]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).modificadoPor]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).montoMensual]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).nombre]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).notas]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).numeroEquipos]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).numeroId]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).numeroKit]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).numeroSerie]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).totalPagadoMesActual]
+ |  +-BasicFetch [com.starlink.entity.Equipo(36114773056600).ultimaModificacion]
+ |  \-BasicFetch [com.starlink.entity.Equipo(36114773056600).vencimiento]
+
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.sql.ast.tree - SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (e1 : com.starlink.entity.Equipo(36114773056600)) {
+          primaryTableReference : equipos as e1_0
+        }
+      }
+    }
+
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.sql.exec - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Initializer list
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results -     com.starlink.entity.Equipo(36114773056600) -> EntityResultInitializer(com.starlink.entity.Equipo(36114773056600))@803216425 (SingleTableEntityPersister(com.starlink.entity.Equipo))
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.SQL - 
+    /* <criteria> */ select
+        e1_0.id,
+        e1_0.activo,
+        e1_0.categoria,
+        e1_0.contraseña,
+        e1_0.correo,
+        e1_0.cuenta_tarjeta,
+        e1_0.deuda_mensual,
+        e1_0.estado_pago,
+        e1_0.fecha_creacion,
+        e1_0.fecha_instalacion,
+        e1_0.modificado_por,
+        e1_0.monto_mensual,
+        e1_0.nombre,
+        e1_0.notas,
+        e1_0.numero_equipos,
+        e1_0.numero_id,
+        e1_0.numero_kit,
+        e1_0.numero_serie,
+        e1_0.total_pagado_mes_actual,
+        e1_0.ultima_modificacion,
+        e1_0.vencimiento 
+    from
+        equipos e1_0
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [4]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 4
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#4] : 288890541
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [Residencial]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [casa22.judiciary005@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-19T00:14:50]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1305.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [22C]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [01000000-00000000-007aa241]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT303063700]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [2DUNI00000193648]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [1305.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-13]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#4
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [5]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 5
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#5] : 771033483
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [38.small169@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [38]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [1038129b-0620721b-98a6b004]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M007829917NR]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831736]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-12]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#5
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [6]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 6
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#6] : 1924681896
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [#q!eRWddGUT8aeT#H#0P]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [chiguiro.crank150@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [29-MAK]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [10c01f8c-87c1011c-d8063a35]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00791643QWW]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00840441]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-18T22:24:40]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-18]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#6
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [7]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#7] : 589620516
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [NO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [Q7UZ8Xvxx8$v1BHhn5@R]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [nissan2.truth976@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [SUSPENDIDO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [20900f11-87c1011c-d8929034]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00783046TKQ]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831823]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-09]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [8]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 8
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#8] : 804346198
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [starlinksiiv.eggshell917@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PENDIENTE]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [ITINERANTE]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [20901005-87c1011c-d8924085]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00783056MBJ]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831844]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-22]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#8
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [10]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 10
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#10] : 718120050
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RESIDENCIAL]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [lopezd5487.1@gmail.com]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [0082]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [1055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [CHEMA]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [01000000-00000000-00c1f675]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT303294413]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [2DWC240500006879]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-14]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#10
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [11]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 11
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#11] : 440437907
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RESIDENCIAL]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [blackerrante@proton.me]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [1882.36]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1882.36]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [SINAI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [40489091-02e16d1b-9886fba5]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00669553CPP]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00712362]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-04]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#11
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [12]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 12
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#12] : 508122938
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [pg@pD#ua5%tU^9Z5xrursV%Djdq@Y9xrHHEEbkQ9h9f^vHjpPrk@p0!5&kC@EZ5w]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [pantera.thorn675@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [-2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [PANTERA]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - []
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [4038098e-46c0081c-d8b20478]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00669208AK4]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00712004]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [4110.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-23T20:29:10]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-24]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#12
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [13]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 13
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#13] : 995595852
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [!GE4#GJ0LIrgfdRRgSR6]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [nissan1.baked150@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [GLADIADOR]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [30380317-87f1091c-188f39d2]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M01013462QHT]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT01073029]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-21T22:25:42]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-21]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#13
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [14]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 14
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#14] : 2097044320
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [silverado.comprised497@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PAGADO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [SUELO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [40208f11-c191891b-98dee24e]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00684649GNZ]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00727968]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-09]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#14
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 15
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#15] : 1648653432
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RESIDENCIAL]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [mueca.facedown490@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [1402.59]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [1402.59]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [10]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [01000000-00000000-00df0bf2]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT400980129]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [4PBA00907927]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#15
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [16]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 16
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#16] : 912265101
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [httpsstarlink.com.wimp671@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PENDIENTE]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [ROMELI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [00380d99-0620721b-982650ae]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M007829527FS]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831741]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-10]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#16
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [17]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 17
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#17] : 830606075
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [burro.claw570@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [318.43]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [318.43]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [BURRO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [00901712-87c1011c-d89290b8]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00783043S64]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831828]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-11-15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#17
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [18]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 18
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#18] : 1068065520
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [MOVIL]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [06021997Fvs@]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [starlinkplaya.ravishing741@passmail.net]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [4110.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [VENCIDO]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [4110.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [PLAYA]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [50c0978e-c410851b-98e614a5]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00682357M7E]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00725412]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-10-16]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#18
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [0] - [19]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Hydrated EntityKey (com.starlink.entity.Equipo(36114773056600)): 19
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Created new entity instance [com.starlink.entity.Equipo(36114773056600)#19] : 2114922185
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [1] - [SI]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [2] - [RV]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [3] - [wUqWcMuNmxbmKH#4rXpp]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [4] - [tribilin.vanity993@passinbox.com]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [5] - [2291]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [6] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [7] - [PENDIENTE]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [8] - [2025-11-18T18:20:15]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [9] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [10] - [null]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [11] - [2055.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [12] - [86-COM]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [13] - []
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [14] - [1]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [15] - [10380884-0620721b-982650ad]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [16] - [KIT4M00783011K7S]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [17] - [M1HT00831708]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [18] - [0.00]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [19] - [2025-11-23T20:17:49]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results - Extracted JDBC value [20] - [2025-12-18]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.orm.results.loading.entity - (EntityResultInitializer) Done materializing entityInstance : com.starlink.entity.Equipo(36114773056600)#19
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG org.hibernate.orm.results.loading - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e9659f7
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1319859905<open>)]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.e.t.internal.TransactionImpl - committing
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 15 objects
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-12-18, montoMensual=2055.00, numeroSerie=M1HT00831708, cuentaTarjeta=2291, categoria=RV, notas=, deudaMensual=2055.00, numeroId=10380884-0620721b-982650ad, modificadoPor=null, nombre=86-COM, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M00783011K7S, correo=tribilin.vanity993@passinbox.com, fechaCreacion=2025-11-18T18:20:15, id=19, ultimaModificacion=2025-11-23T20:17:49, totalPagadoMesActual=0.00, estadoPago=PENDIENTE, activo=SI, contraseña=wUqWcMuNmxbmKH#4rXpp}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-10-16, montoMensual=4110.00, numeroSerie=M1HT00725412, cuentaTarjeta=2291, categoria=MOVIL, notas=null, deudaMensual=4110.00, numeroId=50c0978e-c410851b-98e614a5, modificadoPor=null, nombre=PLAYA, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M00682357M7E, correo=starlinkplaya.ravishing741@passmail.net, fechaCreacion=2025-11-18T18:20:15, id=18, ultimaModificacion=null, totalPagadoMesActual=0.00, estadoPago=VENCIDO, activo=SI, contraseña=06021997Fvs@}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-11-15, montoMensual=318.43, numeroSerie=M1HT00831828, cuentaTarjeta=2291, categoria=MOVIL, notas=null, deudaMensual=318.43, numeroId=00901712-87c1011c-d89290b8, modificadoPor=null, nombre=BURRO, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M00783043S64, correo=burro.claw570@passmail.net, fechaCreacion=2025-11-18T18:20:15, id=17, ultimaModificacion=null, totalPagadoMesActual=0.00, estadoPago=VENCIDO, activo=SI, contraseña=06021997Fvs@}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-12-10, montoMensual=2055.00, numeroSerie=M1HT00831741, cuentaTarjeta=2291, categoria=MOVIL, notas=null, deudaMensual=2055.00, numeroId=00380d99-0620721b-982650ae, modificadoPor=null, nombre=ROMELI, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M007829527FS, correo=httpsstarlink.com.wimp671@passmail.net, fechaCreacion=2025-11-18T18:20:15, id=16, ultimaModificacion=null, totalPagadoMesActual=0.00, estadoPago=PENDIENTE, activo=SI, contraseña=06021997Fvs@}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-11-15, montoMensual=1402.59, numeroSerie=4PBA00907927, cuentaTarjeta=2291, categoria=RESIDENCIAL, notas=null, deudaMensual=1402.59, numeroId=01000000-00000000-00df0bf2, modificadoPor=null, nombre=10, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT400980129, correo=mueca.facedown490@passmail.net, fechaCreacion=2025-11-18T18:20:15, id=15, ultimaModificacion=null, totalPagadoMesActual=0.00, estadoPago=VENCIDO, activo=SI, contraseña=06021997Fvs@}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-11-09, montoMensual=2055.00, numeroSerie=M1HT00727968, cuentaTarjeta=2291, categoria=MOVIL, notas=null, deudaMensual=0.00, numeroId=40208f11-c191891b-98dee24e, modificadoPor=null, nombre=SUELO, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M00684649GNZ, correo=silverado.comprised497@passmail.net, fechaCreacion=2025-11-18T18:20:15, id=14, ultimaModificacion=2025-11-18T18:20:15, totalPagadoMesActual=2055.00, estadoPago=PAGADO, activo=SI, contraseña=06021997Fvs@}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-12-12, montoMensual=2055.00, numeroSerie=M1HT00831736, cuentaTarjeta=2291, categoria=MOVIL, notas=null, deudaMensual=0.00, numeroId=1038129b-0620721b-98a6b004, modificadoPor=null, nombre=38, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M007829917NR, correo=38.small169@passmail.net, fechaCreacion=2025-11-18T18:20:15, id=5, ultimaModificacion=null, totalPagadoMesActual=2055.00, estadoPago=PAGADO, activo=SI, contraseña=06021997Fvs@}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-12-13, montoMensual=1305.00, numeroSerie=2DUNI00000193648, cuentaTarjeta=2291, categoria=Residencial, notas=null, deudaMensual=0.00, numeroId=01000000-00000000-007aa241, modificadoPor=null, nombre=22C, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT303063700, correo=casa22.judiciary005@passmail.net, fechaCreacion=2025-11-19T00:14:50, id=4, ultimaModificacion=null, totalPagadoMesActual=1305.00, estadoPago=PAGADO, activo=SI, contraseña=06021997Fvs@}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-12-21, montoMensual=2055.00, numeroSerie=M1HT01073029, cuentaTarjeta=2291, categoria=RV, notas=null, deudaMensual=0.00, numeroId=30380317-87f1091c-188f39d2, modificadoPor=null, nombre=GLADIADOR, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M01013462QHT, correo=nissan1.baked150@passmail.net, fechaCreacion=2025-11-18T18:20:15, id=13, ultimaModificacion=2025-11-21T22:25:42, totalPagadoMesActual=2055.00, estadoPago=PAGADO, activo=SI, contraseña=!GE4#GJ0LIrgfdRRgSR6}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-12-24, montoMensual=2055.00, numeroSerie=M1HT00712004, cuentaTarjeta=2291, categoria=RV, notas=, deudaMensual=-2055.00, numeroId=4038098e-46c0081c-d8b20478, modificadoPor=null, nombre=PANTERA, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M00669208AK4, correo=pantera.thorn675@passmail.net, fechaCreacion=2025-11-18T18:20:15, id=12, ultimaModificacion=2025-11-23T20:29:10, totalPagadoMesActual=4110.00, estadoPago=PAGADO, activo=SI, contraseña=pg@pD#ua5%tU^9Z5xrursV%Djdq@Y9xrHHEEbkQ9h9f^vHjpPrk@p0!5&kC@EZ5w}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-11-04, montoMensual=1882.36, numeroSerie=M1HT00712362, cuentaTarjeta=2291, categoria=RESIDENCIAL, notas=null, deudaMensual=1882.36, numeroId=40489091-02e16d1b-9886fba5, modificadoPor=null, nombre=SINAI, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M00669553CPP, correo=blackerrante@proton.me, fechaCreacion=2025-11-18T18:20:15, id=11, ultimaModificacion=null, totalPagadoMesActual=0.00, estadoPago=VENCIDO, activo=SI, contraseña=06021997Fvs@}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-11-14, montoMensual=1055.00, numeroSerie=2DWC240500006879, cuentaTarjeta=0082, categoria=RESIDENCIAL, notas=null, deudaMensual=1055.00, numeroId=01000000-00000000-00c1f675, modificadoPor=null, nombre=CHEMA, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT303294413, correo=lopezd5487.1@gmail.com, fechaCreacion=2025-11-18T18:20:15, id=10, ultimaModificacion=null, totalPagadoMesActual=0.00, estadoPago=VENCIDO, activo=SI, contraseña=06021997Fvs@}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-11-22, montoMensual=2055.00, numeroSerie=M1HT00831844, cuentaTarjeta=2291, categoria=MOVIL, notas=null, deudaMensual=2055.00, numeroId=20901005-87c1011c-d8924085, modificadoPor=null, nombre=ITINERANTE, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M00783056MBJ, correo=starlinksiiv.eggshell917@passmail.net, fechaCreacion=2025-11-18T18:20:15, id=8, ultimaModificacion=null, totalPagadoMesActual=0.00, estadoPago=PENDIENTE, activo=SI, contraseña=06021997Fvs@}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-11-09, montoMensual=2055.00, numeroSerie=M1HT00831823, cuentaTarjeta=2291, categoria=RV, notas=null, deudaMensual=2055.00, numeroId=20900f11-87c1011c-d8929034, modificadoPor=null, nombre=SUSPENDIDO, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M00783046TKQ, correo=nissan2.truth976@passmail.net, fechaCreacion=2025-11-18T18:20:15, id=7, ultimaModificacion=null, totalPagadoMesActual=0.00, estadoPago=VENCIDO, activo=NO, contraseña=Q7UZ8Xvxx8$v1BHhn5@R}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.h.internal.util.EntityPrinter - com.starlink.entity.Equipo{vencimiento=2025-12-18, montoMensual=2055.00, numeroSerie=M1HT00840441, cuentaTarjeta=2291, categoria=RV, notas=null, deudaMensual=0.00, numeroId=10c01f8c-87c1011c-d8063a35, modificadoPor=null, nombre=29-MAK, numeroEquipos=1, fechaInstalacion=null, numeroKit=KIT4M00791643QWW, correo=chiguiro.crank150@passmail.net, fechaCreacion=2025-11-18T18:20:15, id=6, ultimaModificacion=2025-11-18T22:24:40, totalPagadoMesActual=2055.00, estadoPago=PAGADO, activo=SI, contraseña=#q!eRWddGUT8aeT#H#0P}
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(1319859905<open>)] after transaction
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [602]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.t.util.net.SocketWrapperBase - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read from buffer: [0]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.apache.tomcat.util.net.NioEndpoint - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read direct from socket: [0]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.a.coyote.http11.Http11Processor - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Status in: [OPEN_READ], State out: [OPEN]
+2025-11-23 20:41:01 [http-nio-8081-exec-9] DEBUG o.apache.tomcat.util.net.NioEndpoint - Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]]
+2025-11-23 20:41:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Before cleanup stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:41:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - After cleanup  stats (total=5, active=0, idle=5, waiting=0)
+2025-11-23 20:41:04 [StarlinkHikariPool housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - StarlinkHikariPool - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [602]
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.t.util.net.SocketWrapperBase - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read from buffer: [0]
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.apache.tomcat.util.net.NioEndpoint - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read direct from socket: [609]
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.coyote.http11.Http11InputBuffer - Received [GET /api/starlink/stats HTTP/1.1
+Host: localhost:8081
+Connection: keep-alive
+sec-ch-ua-platform: "Windows"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: application/json
+sec-ch-ua: "Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"
+Content-Type: application/json
+sec-ch-ua-mobile: ?0
+Origin: http://localhost:49828
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:49828/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: es-ES,es;q=0.9
+
+]
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.c.a.AuthenticatorBase - Security checking request GET /api/starlink/stats
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG org.apache.catalina.realm.RealmBase -   No applicable constraints defined
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.c.a.AuthenticatorBase - Not subject to any constraint
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Securing GET /api/starlink/stats
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.s.security.web.FilterChainProxy - Secured GET /api/starlink/stats
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG c.starlink.service.StarlinkService - Consultando Starlink en: http://192.168.100.1:9200/api/status
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG s.n.w.p.http.HttpURLConnection - sun.net.www.MessageHeader@393d12c2 5 pairs: {GET /api/status HTTP/1.1: null}{Accept: text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*}{User-Agent: Java/23.0.1}{Host: 192.168.100.1:9200}{Connection: keep-alive}
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG s.n.w.p.http.HttpURLConnection - sun.net.www.MessageHeader@7ee7e88b 1 pairs: {Content-type: unknown/unknown}
+2025-11-23 20:41:08 [http-nio-8081-exec-10] ERROR c.starlink.service.StarlinkService - Error al obtener estadísticas de Starlink: Status code '-1' should be a three-digit positive integer
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.c.h.filters.GzipOutputFilter - Flushing the compression stream!
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.coyote.http11.Http11InputBuffer - Before fill(): parsingHeader: [true], parsingRequestLine: [true], parsingRequestLinePhase: [0], parsingRequestLineStart: [0], byteBuffer.position(): [0], byteBuffer.limit(): [0], end: [609]
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.t.util.net.SocketWrapperBase - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read from buffer: [0]
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.apache.tomcat.util.net.NioEndpoint - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Read direct from socket: [0]
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.coyote.http11.Http11InputBuffer - Received []
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.a.coyote.http11.Http11Processor - Socket: [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]], Status in: [OPEN_READ], State out: [OPEN]
+2025-11-23 20:41:08 [http-nio-8081-exec-10] DEBUG o.apache.tomcat.util.net.NioEndpoint - Registered read interest for [org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper@4e004a:org.apache.tomcat.util.net.NioChannel@29505ee2:java.nio.channels.SocketChannel[connected local=/[0:0:0:0:0:0:0:1]:8081 remote=/[0:0:0:0:0:0:0:1]:56378]]
